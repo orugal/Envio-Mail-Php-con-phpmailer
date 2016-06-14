@@ -14,12 +14,12 @@ define('_SMTP_PASS'										,'claveCorreo');//configurar<br>
 define('_MAIL_ADMIN'									,'info@correoWeb.com');//configurar<br>
 </pre>
 
-La constante _NOMBRE_EMPRESA es donde se debe poner el nombre de la empresa o proyecto que está enviando el mail, el uso de esa variable es opcional, todo depende de lo que se quiera escribir en el mensaje enviado.<br><br>
+<strong>_NOMBRE_EMPRESA</strong> = Es donde se debe poner el nombre de la empresa o proyecto que está enviando el mail, el uso de esa variable es opcional, todo depende de lo que se quiera escribir en el mensaje enviado.<br>
 
 <strong>_HOST_MAIL </strong>= es la url del servidor de envio de mails.<br>
 <strong>_SMTP_USER </strong>= es el usuario por medio del cual se enviaran los mensajes.<br>
 <strong>_SMTP_PASS </strong>= clave de la cuenta de correo por donde saldrán los mensajes.<br>
-<strong>_MAIL_ADMIN </strong>= cuenta de correo de la persona a la cual le llegará el correo.<br><br>
+<strong>_MAIL_ADMIN </strong>= cuenta de correo de la persona a la cual le llegará el correo, Ojo!! Acá se coloca el mail de la persona administradora a la cual deben llegar los correos dentro de la empresa.<br><br>
 
 
 Después de tener esto configurado vamos al archivo envio.php y realizar la respectiva configuración de lo que queremos enviar, hay que ver el archivo para saber que es muy intuitivo.
