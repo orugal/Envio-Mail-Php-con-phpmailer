@@ -1,4 +1,4 @@
-# Envio-Mail-Php-con-phpmailer
+# Envio mail php con phpmailer
 Una forma fácil de enviar mensajes de correo electrónico por medio de la calse PHPmailer. Este se puede usar con AJAX o simplemente con PHP
 
 
